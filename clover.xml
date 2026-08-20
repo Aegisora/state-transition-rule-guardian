@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1787244218">
-  <project timestamp="1787244218">
+<coverage generated="1787244331">
+  <project timestamp="1787244331">
     <file name="/home/runner/work/state-transition-rule-guardian/state-transition-rule-guardian/src/StateTransitionRuleGuardian.php">
       <class name="Aegisora\RuleGuardians\StateTransitionRule\StateTransitionRuleGuardian" namespace="global">
         <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
