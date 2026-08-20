@@ -1,8 +1,20 @@
 {
     "name": "aegisora/state-transition-rule-guardian",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "description": "State Transition Rule Guardian provides a simple shortcut for state transition validation using aegisora/guardian and aegisora/state-transition-rule",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "guardian",
+        "rule",
+        "rule-guardian",
+        "validation",
+        "state",
+        "state-transition",
+        "state-machine",
+        "transition"
+    ],
     "homepage": "https://github.com/Aegisora/state-transition-rule-guardian",
     "support": {
         "issues": "https://github.com/Aegisora/state-transition-rule-guardian/issues",
