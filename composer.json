@@ -1,12 +1,24 @@
 {
-    "name": "aegisora/<REPOSITORY_NAME>",
-    "description": "<REPOSITORY_DESCRIPTION>",
+    "name": "aegisora/state-transition-rule-guardian",
+    "description": "State Transition Rule Guardian provides a simple shortcut for state transition validation using aegisora/guardian and aegisora/state-transition-rule",
     "type": "library",
-    "keywords": ["php", "aegisora", "aegisora-ecosystem"],
-    "homepage": "https://github.com/Aegisora/<REPOSITORY_NAME>",
+    "keywords": [
+        "php",
+        "aegisora",
+        "aegisora-ecosystem",
+        "guardian",
+        "rule",
+        "rule-guardian",
+        "validation",
+        "state",
+        "state-transition",
+        "state-machine",
+        "transition"
+    ],
+    "homepage": "https://github.com/Aegisora/state-transition-rule-guardian",
     "support": {
-        "issues": "https://github.com/Aegisora/<REPOSITORY_NAME>/issues",
-        "source": "https://github.com/Aegisora/<REPOSITORY_NAME>"
+        "issues": "https://github.com/Aegisora/state-transition-rule-guardian/issues",
+        "source": "https://github.com/Aegisora/state-transition-rule-guardian"
     },
     "authors": [
         {
@@ -17,7 +29,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "aegisora/guardian": "^1.0",
+        "aegisora/state-transition-rule": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6",
@@ -26,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Aegisora\\<PACKAGE>\\": "src/"
+            "Aegisora\\RuleGuardians\\StateTransitionRule\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aegisora\\<PACKAGE>\\Tests\\": "tests/"
+            "Aegisora\\RuleGuardians\\StateTransitionRule\\Tests\\": "tests/"
         }
     },
     "config": {

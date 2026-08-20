@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1648587867">
-  <project timestamp="1648587867">
-    <metrics files="0" loc="0" ncloc="0" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+<coverage generated="1787244331">
+  <project timestamp="1787244331">
+    <file name="/home/runner/work/state-transition-rule-guardian/state-transition-rule-guardian/src/StateTransitionRuleGuardian.php">
+      <class name="Aegisora\RuleGuardians\StateTransitionRule\StateTransitionRuleGuardian" namespace="global">
+        <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
+      </class>
+      <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="32"/>
+      <line num="22" type="stmt" count="32"/>
+      <line num="33" type="method" name="checkByStateNames" visibility="public" complexity="1" crap="1" count="10"/>
+      <line num="39" type="stmt" count="10"/>
+      <line num="40" type="stmt" count="10"/>
+      <line num="41" type="stmt" count="10"/>
+      <line num="42" type="stmt" count="10"/>
+      <line num="43" type="stmt" count="10"/>
+      <line num="52" type="method" name="checkByStates" visibility="public" complexity="1" crap="1" count="10"/>
+      <line num="58" type="stmt" count="10"/>
+      <line num="59" type="stmt" count="10"/>
+      <line num="60" type="stmt" count="10"/>
+      <line num="61" type="stmt" count="10"/>
+      <line num="62" type="stmt" count="10"/>
+      <line num="70" type="method" name="checkTransition" visibility="public" complexity="1" crap="1" count="12"/>
+      <line num="75" type="stmt" count="12"/>
+      <line num="76" type="stmt" count="12"/>
+      <line num="77" type="stmt" count="12"/>
+      <line num="78" type="stmt" count="12"/>
+      <line num="79" type="stmt" count="12"/>
+      <metrics loc="82" ncloc="63" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
+    </file>
+    <metrics files="1" loc="82" ncloc="63" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="20" coveredelements="20"/>
   </project>
 </coverage>
